@@ -1,28 +1,45 @@
-# CMOS Inverter LTspice Simulation  
+# CMOS Inverter LTspice Simulation
 
-## 📌 Project Description  
-This project contains an **LTspice simulation** of a **CMOS Inverter Circuit**.  
-It includes **schematic files, netlists, and waveform analysis** results.  
+## 📌 Project Description
+This project demonstrates the **CMOS Inverter Circuit** simulation using **LTspice**. A CMOS inverter is a fundamental digital logic gate used in various electronics applications. The project includes **circuit schematics, SPICE netlist files, and simulation results**, showcasing the inverter's behavior.
 
-## 🔧 Circuit Details  
-- **Components**: PMOS, NMOS transistors, resistors, power supply.  
-- **Operation**: When the input is HIGH (1), the output is LOW (0), and vice versa.  
-- **Supply Voltage**: 5V  
+## ⚡ Key Features
+- ✅ **CMOS Technology**: Uses NMOS and PMOS transistors for switching.
+- ✅ **Simulation in LTspice**: Provides `.asc` schematic and `.cir` netlist files.
+- ✅ **Waveform Analysis**: Observes voltage transitions in an inverter circuit.
+- ✅ **LTspice-Compatible Files**: Ready-to-run simulations for students and researchers.
 
-## 💻 How to Use the LTspice Files  
-1️⃣ Download the `.asc` schematic file from this repository.  
-2️⃣ Open **LTspice** and load the `.asc` file.  
-3️⃣ Click **"Run"** to simulate and observe the **inverter's switching behavior**.  
+## 🔧 Circuit Details
+- **Components Used**: NMOS & PMOS transistors, power supply, load resistor.
+- **Operating Voltage**: 5V DC.
+- **Functionality**:
+  - When **input = HIGH (1)** → Output = **LOW (0)**.
+  - When **input = LOW (0)** → Output = **HIGH (1)**.
+- **Applications**:  
+  - Used in **logic circuits** for switching.
+  - Basis for designing **logic gates and microprocessors**.
 
-## 📊 Simulation Results  
-- The simulation shows the **input vs. output voltage waveforms**.  
-- The expected result: The CMOS inverter **inverts the input signal**.  
-- Example waveform: *(Upload your LTspice waveform image and add the link here)*  
+## 💻 How to Use the Files
+1. **Download** the `.asc` schematic file from this repository.
+2. Open the file in **LTspice**.
+3. Run a **Transient Analysis** (`.tran 10u`) to observe the switching behavior.
+4. View the waveform results showing **input-output transitions**.
 
-## 📁 Files in This Repository  
+## 📊 Simulation Results
+- The output waveform shows the inverter behavior (**high input → low output** and vice versa).
+- The simulation verifies **CMOS switching operation** under different voltage levels.
+- **Example Output**:  
+  ![Simulation Waveform](your-image-link)  *(Replace with the actual image link you uploaded on GitHub)*
+
+## 📁 Files Included in the Repository
 | File Name        | Description |
 |-----------------|-------------|
-| `CMOS INVERTER.asc` | LTspice schematic file |
+| `cmos_inverter.asc` | LTspice schematic file |
 | `cmos_inverter.cir` | Netlist file for SPICE simulation |
 | `cmos_waveform.raw` | Output waveform file |
 | `README.md` | Project documentation |
+
+---
+
+### 🎯 Conclusion
+This project provides a **practical LTspice simulation** of a CMOS inverter, demonstrating its **digital logic switching characteristics**. It serves as a useful reference for **students, researchers, and engineers** interested in **CMOS logic design**. 🚀
