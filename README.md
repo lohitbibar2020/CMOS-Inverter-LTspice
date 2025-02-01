@@ -22,7 +22,7 @@ It includes **schematic files, netlists, and waveform analysis** results.
 ## 📁 Files in This Repository  
 | File Name        | Description |
 |-----------------|-------------|
-| `cmos_inverter.asc` | LTspice schematic file |
+| `CMOS INVERTER.asc` | LTspice schematic file |
 | `cmos_inverter.cir` | Netlist file for SPICE simulation |
 | `cmos_waveform.raw` | Output waveform file |
 | `README.md` | Project documentation |
